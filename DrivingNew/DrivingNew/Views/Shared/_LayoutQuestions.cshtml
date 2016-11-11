@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>@Page.Title</title>
+	@RenderSection("head", required: false)
+	@Styles.Render("~/Content/css")
+	@Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+	<div class="row">
+		<div class="col-md-6">
+			@RenderSection("Questions", required: false)
+		</div>
+		<div class="col-md-6">
+			@RenderSection("Photos", required: false)
+		</div>
+	</div>
+	<div class="row">
+		@RenderBody()
+	</div>
+	
+	
+	@Scripts.Render("~/bundles/jquery")
+	@Scripts.Render("~/bundles/bootstrap")
+	@RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DrivingConfig>
+	<SystemConfigurations>
+		<ImageFolderPath>~/UploadedFiles/Images</ImageFolderPath>
+	</SystemConfigurations>
+</DrivingConfig>
